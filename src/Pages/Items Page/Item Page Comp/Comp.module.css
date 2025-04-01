@@ -1,6 +1,30 @@
 /*Display Card Image*/
 
 .DisplayCardImage {
-  width: 100px;
-  height: 100px;
+  width: 215px;
+  height: 340px;
+  z-index: -0;
+}
+.DisplayCard {
+  opacity: 0%;
+}
+.DisplayCard:hover {
+  opacity: 100%;
+}
+.ItemCard {
+  background-color: wheat;
+  height: 340px;
+  width: 215px;
+  text-align: center;
+  padding: 0rem;
+}
+.ItemBox {
+  width: 215px;
+  height: 340px;
+}
+.DisplayCardContainer {
+  display: grid;
+  grid-row: 1rem 1rem 1rem 1rem;
+  columns: 1rem 1rem;
+  gap: 1rem;
 }

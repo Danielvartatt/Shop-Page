@@ -1,12 +1,11 @@
-import { Outline } from "react-router-dom";
-
+import { Outlet } from "react-router-dom";
+import Header from "./Header/Footer/Header";
+import Footer from "./Header/Footer/Footer";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Header />
-      <Outline />
+      <Outlet />
       <Footer />
     </>
   );

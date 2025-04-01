@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import {
   AdditemPage,
   AdminPage,
+  AdminMainpage,
   BannedUser,
   ItemPage,
   ItemSubPage,
@@ -19,12 +20,13 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { path: "", element: <MainPage /> },
-      { path: "/Items", element: <ItemPage /> },
-      { path: "/items/:itemID", element: <ItemSubPage /> },
-      { path: "/:Login", element: <LogInPage /> },
+      { path: "/Marketplace", element: <ItemPage /> },
+      { path: "/Marketplace/:itemID", element: <ItemSubPage /> },
+      { path: "/Login/", element: <LogInPage /> },
       { path: "/Login-Special/", element: <LogInPageAdmin /> },
       { path: "/Main", element: <AdminPage /> },
       { path: "/Main/NewItem", element: <AdditemPage /> },
+      { path: "/Seller/:sellerid", element: <AdminMainpage /> },
     ],
   },
 ]);

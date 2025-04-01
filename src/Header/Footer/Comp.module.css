@@ -1,0 +1,27 @@
+.Image {
+  height: 35px;
+  width: auto;
+}
+.ConatinerNav {
+  display: flex;
+  align-items: start;
+}
+.ConatinerLink {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+  padding-top: 0.5rem;
+}
+
+.LinkText {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+.User {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  gap: 0.1rem;
+  padding-top: 0.5rem;
+}

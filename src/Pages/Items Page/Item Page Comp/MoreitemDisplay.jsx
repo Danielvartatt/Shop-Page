@@ -6,8 +6,8 @@ export default function MoreitemDisplay() {
   return (
     <>
       <div>
-        {Catalogue.map((items, Id) => {
-          return <DisplayCard key={Id} data={items} />;
+        {Catalogue.map((items, index) => {
+          return <DisplayCard key={index} data={items} />;
         })}
       </div>
     </>

@@ -1,10 +1,8 @@
+import LoginAdmin from "./Componets/LoginAdmin";
 export function LogInPageAdmin() {
   return (
     <>
-      <h2>enter Username and Passwrod</h2>
-      <p>Login text</p>
-      <input type="text"></input>
-      <input type="text"></input>
+      <LoginAdmin />
     </>
   );
 }

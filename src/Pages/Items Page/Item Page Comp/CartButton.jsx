@@ -1,15 +1,4 @@
-export default function CartButton({ data: { inStock } }) {
-  if ({ inStock } > 0) {
-    return (
-      <div>
-        <button>Add to Cart</button>
-      </div>
-    );
-  } else {
-    return (
-      <div>
-        <button>Out of stock</button>
-      </div>
-    );
-  }
+export default function CartButton({ inStock }) {
+  const items = [{ inStock }];
+  return <button>{inStock ? "in stock" : "out of stock"}</button>;
 }
