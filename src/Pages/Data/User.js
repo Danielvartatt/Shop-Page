@@ -1,5 +1,17 @@
 export const Users = [
   {
+    name: "",
+    register: 0,
+    age: 0,
+    userid: 0,
+    Banned: false,
+    country: 1,
+    seller: false,
+    reason: "",
+    profileimgURL: "",
+    lastactive: 0,
+  },
+  {
     name: "Tor Schumann",
     register: 110918,
     age: 78,
@@ -8,6 +20,8 @@ export const Users = [
     country: 1,
     seller: false,
     reason: "",
+    profileimgURL: "",
+    lastactive: 120225,
   },
   {
     name: "Bjarte hellesylt",
@@ -18,6 +32,8 @@ export const Users = [
     country: 1,
     seller: true,
     reason: "",
+    profileimgURL: "",
+    lastactive: 160924,
   },
   {
     name: "Kari Nordman",
@@ -28,6 +44,9 @@ export const Users = [
     country: 12,
     seller: false,
     reason: "fraud, deception",
+    profileimgURL: "",
+    lastactive: 121222,
+    banneddate: 121222,
   },
   {
     name: "Ivan Strelov",
@@ -38,5 +57,7 @@ export const Users = [
     country: 10,
     seller: false,
     reason: "",
+    profileimgURL: "",
+    lastactive: 300325,
   },
 ];

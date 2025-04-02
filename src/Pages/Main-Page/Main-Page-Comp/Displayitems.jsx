@@ -1,5 +1,5 @@
-import { Catalogue } from "../../Items-Page/Item Page Comp/ItemCatalogue";
-import DisplayCardLink from "../../Items Page/Item Page Comp/DisplayCardLink";
+import { Catalogue } from "../../Items-Page/Item-Page-Comp/ItemCatalogue";
+import DisplayCardLink from "../../Items-Page/Item-Page-Comp/DisplayCardLink";
 export default function Displayitems() {
   return (
     <>

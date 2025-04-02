@@ -1,5 +1,5 @@
 import styles from "./Itempage.module.css";
-import MoreitemDisplay from "./Item Page Comp/MoreitemDisplay";
+import MoreitemDisplay from "./Item-Page-Comp/MoreitemDisplay";
 export function ItemPage() {
   return (
     <>
