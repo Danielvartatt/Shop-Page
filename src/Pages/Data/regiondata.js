@@ -1,0 +1,130 @@
+export const Countrycode = [
+  {
+    region: "Europe",
+    name: "N/A",
+    countryid: 10,
+    usercount: 0,
+  },
+
+  {
+    region: "Europe",
+    name: "Norway",
+    countryid: 11,
+    usercount: 0,
+  },
+  {
+    region: "Europe",
+    name: "Sweden",
+    countryid: 12,
+    usercount: 0,
+  },
+  {
+    region: "Europe",
+    name: "Finland",
+    countryid: 13,
+    usercount: 0,
+  },
+  {
+    region: "Europe",
+    name: "Denmark",
+    countryid: 13,
+    usercount: 0,
+  },
+  {
+    region: "Europe",
+    name: "UK",
+    countryid: 14,
+    usercount: 0,
+  },
+
+  {
+    region: "Europe",
+    name: "Iceland",
+    countryid: 15,
+    usercount: 0,
+  },
+  {
+    region: "Europe",
+    name: "Ireland",
+    countryid: 16,
+    usercount: 0,
+  },
+  {
+    region: "Europe",
+    name: "Spain",
+    countryid: 17,
+    usercount: 0,
+  },
+  {
+    region: "Europe",
+    name: "France",
+    countryid: 18,
+    usercount: 0,
+  },
+  {
+    region: "Europe",
+    name: "Poland",
+    countryid: 19,
+    usercount: 0,
+  },
+  {
+    region: "Baltic",
+    name: "N/A",
+    countryid: 20,
+    usercount: 0,
+  },
+  {
+    region: "Baltic",
+    name: "Latvia",
+    countryid: 21,
+    usercount: 0,
+  },
+  {
+    region: "Baltic",
+    name: "Estonia",
+    countryid: 23,
+    usercount: 0,
+  },
+  {
+    region: "Baltic",
+    name: "Lithuania",
+    countryid: 24,
+    usercount: 0,
+  },
+  {
+    region: "Baltic",
+    name: "KalinGrad",
+    countryid: 25,
+    usercount: 0,
+  },
+  {
+    region: "East-Europe",
+    name: "N/A",
+    countryid: 30,
+    usercount: 0,
+  },
+  {
+    region: "East-Europe",
+    name: "Ukriane",
+    countryid: 31,
+    usercount: 0,
+  },
+  {
+    region: "East-Europe",
+    name: "Hungary",
+    countryid: 32,
+    usercount: 0,
+  },
+  {
+    region: "East-Europe",
+    name: "Slovakia",
+    countryid: 33,
+    usercount: 0,
+  },
+  {
+    region: "East-Europe",
+    name: "czech republic",
+    countryid: 34,
+    usercount: 0,
+  },
+];

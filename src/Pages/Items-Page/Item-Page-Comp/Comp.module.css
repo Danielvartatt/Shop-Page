@@ -1,9 +1,12 @@
 /*Display Card Image*/
 
 .DisplayCardImage {
-  width: 215px;
+  width: auto;
   height: 340px;
-  z-index: -0;
+  z-index: -1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 .DisplayCard {
   opacity: 0%;
@@ -12,11 +15,12 @@
   opacity: 100%;
 }
 .ItemCard {
-  background-color: wheat;
-  height: 340px;
-  width: 215px;
+  background-color: #a1895c;
+  height: 215px;
+  width: 340px;
   text-align: center;
   padding: 0rem;
+  opacity: 75px;
 }
 .ItemBox {
   width: 215px;

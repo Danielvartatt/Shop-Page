@@ -5,7 +5,7 @@ export default function DisplayCard({
 }) {
   return (
     <>
-      <div className={styles.DisplayCardContainer}>
+      <div>
         <div className={styles.ItemBox}>
           <div>
             <img src={imageURL} className={styles.DisplayCardImage}></img>

@@ -1,8 +1,8 @@
-import styles from "./Comp.module.css";
-import CartButton from "./CartButton";
+import { Link } from "react-router-dom";
+
 export default function DisplayCardLink({
   data: {
-    item: { name, Description, ImageURL, inStock, RetailPrice },
+    item: { name, Description, ImageURL, RetailPrice },
   },
 }) {
   return (
@@ -13,8 +13,7 @@ export default function DisplayCardLink({
           <h2>{name}</h2>
           <p>{RetailPrice}</p>
           <p>{Description}</p>
-          <p>items in stock:{inStock}</p>
-          <CartButton />
+          <Link to={`/${id}`}>more info</Link>
         </div>
       </div>
     </>
