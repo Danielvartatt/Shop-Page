@@ -6,4 +6,6 @@ export { LogInPageAdmin } from "./Login-page/LogInPageAdmin";
 export { AdditemPage } from "./Admin-page/Pages/AdditemPage";
 export { BannedUser } from "./Admin-page/Pages/BannedUser";
 export { AdminPage } from "./Admin-page/Pages/AdminPage";
+export { Userlistpage } from "./Admin-page/Pages/Userlistpage";
 export { AdminMainpage } from "./Admin-page/Pages/AdminMainpage";
+export { MoreItemPage } from "./Item-info-page/MoreItemPage";

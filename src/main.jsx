@@ -10,6 +10,7 @@ import {
   LogInPage,
   LogInPageAdmin,
   MainPage,
+  MoreItemPage,
 } from "./Pages/index.jsx";
 import "./index.css";
 import App from "./App.jsx";
@@ -27,6 +28,7 @@ const router = createBrowserRouter([
       { path: "/Main", element: <AdminPage /> },
       { path: "/Main/NewItem", element: <AdditemPage /> },
       { path: "/Seller/:sellerid", element: <AdminMainpage /> },
+      { path: "/Iteminfo/:itemid", element: <MoreItemPage /> },
     ],
   },
 ]);

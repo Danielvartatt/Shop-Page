@@ -5,7 +5,10 @@ export default function Displayitems() {
     <>
       <div>
         {Catalogue.map((items, index) => {
-          return <DisplayCardLink key={index} data={items} />;
+          return;
+          <>
+            <DisplayCardLink key={index} data={items} />;
+          </>;
         })}
       </div>
     </>

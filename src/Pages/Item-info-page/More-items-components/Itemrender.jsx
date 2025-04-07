@@ -1,9 +1,8 @@
 import { useParams } from "react-router-dom";
-import Tax from "./Tax";
-export default function Itemrender() {
+export default function Itemrender({ itemid }) {
   return (
     <>
-      <Tax />
+      <p>test</p>
     </>
   );
 }

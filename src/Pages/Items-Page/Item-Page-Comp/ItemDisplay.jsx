@@ -4,7 +4,7 @@ import DisplayCard from "./DisplayCard";
 export default function ItemDisplay(data) {
   return (
     <>
-      <div></div>
+      <div>test</div>
     </>
   );
 }

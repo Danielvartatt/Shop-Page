@@ -4,6 +4,7 @@ export function MainPage() {
   return (
     <>
       <Carousel />
+      <ProductTypes />
     </>
   );
 }
