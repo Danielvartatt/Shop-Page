@@ -1,0 +1,13 @@
+.buttonMisc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonMisc:hover {
+  text-decoration: solid;
+}
+
+.ImageMisc {
+  display: flex;
+  align-items: center;
+}

@@ -11,6 +11,8 @@ import {
   LogInPageAdmin,
   MainPage,
   MoreItemPage,
+  RegisterPage,
+  CantfindPage,
 } from "./Pages/index.jsx";
 import "./index.css";
 import App from "./App.jsx";
@@ -24,6 +26,7 @@ const router = createBrowserRouter([
       { path: "/Marketplace", element: <ItemPage /> },
       { path: "/Marketplace/:itemID", element: <ItemSubPage /> },
       { path: "/Login/", element: <LogInPage /> },
+      { path: "/Register/", element: <RegisterPage /> },
       { path: "/Login-Special/", element: <LogInPageAdmin /> },
       { path: "/Main", element: <AdminPage /> },
       { path: "/Main/NewItem", element: <AdditemPage /> },
@@ -31,6 +34,7 @@ const router = createBrowserRouter([
       { path: "/Iteminfo/:itemid", element: <MoreItemPage /> },
     ],
   },
+  { path: "*", element: <CantfindPage /> },
 ]);
 createRoot(document.getElementById("root")).render(
   <StrictMode>

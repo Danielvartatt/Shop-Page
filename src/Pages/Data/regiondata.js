@@ -1,5 +1,11 @@
 export const Countrycode = [
   {
+    region: "Earth",
+    name: "N/A",
+    countryid: 1,
+    usercount: 0,
+  },
+  {
     region: "Europe",
     name: "N/A",
     countryid: 10,
