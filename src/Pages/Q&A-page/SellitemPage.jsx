@@ -1,8 +1,8 @@
-import { Retundata } from "./Components/Retundata";
+//import { Retundata } from "./Components/Retundata";
 export function SellitemPage() {
   return (
     <>
-      <Retundata />
+      <p>placeholder text</p>
     </>
   );
 }

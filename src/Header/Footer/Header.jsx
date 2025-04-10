@@ -6,7 +6,7 @@ export default function Header() {
     <>
       <div className={styles.ConatinerNav}>
         <div>
-          <Link to="/">
+          <Link to="/Shop-Page/">
             <img
               src={Logo}
               alt="NeoWeb Marketplace Logo"
@@ -16,12 +16,12 @@ export default function Header() {
         </div>
         <div className={styles.ConatinerLink}>
           <div>
-            <Link className={styles.LinkText} to="/">
+            <Link className={styles.LinkText} to="/Shop-Page/">
               | Home |
             </Link>
           </div>
           <div>
-            <Link className={styles.LinkText} to="/Marketplace">
+            <Link className={styles.LinkText} to="/Shop-Page/Marketplace/">
               Marketplace |
             </Link>
           </div>

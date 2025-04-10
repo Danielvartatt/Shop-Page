@@ -13,7 +13,7 @@ export default function Random() {
           <div>
             <p>Please return to the main page.</p>
             <p>
-              You can use this link <Link to="/">here</Link> to return
+              You can use this link <Link to="/Shop-Page/">here</Link> to return
             </p>
             <p>heres an image of Zelengorsk ^_____^</p>
           </div>

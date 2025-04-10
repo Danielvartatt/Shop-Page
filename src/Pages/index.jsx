@@ -12,3 +12,4 @@ export { MoreItemPage } from "./Item-info-page/MoreItemPage";
 export { RegisterPage } from "./Login-page/RegisterPage";
 export { PlaceholderPage } from "./Misc/PlaceholderPage";
 export { CantfindPage } from "./Misc/CantfindPage";
+export { SellitemPage } from "./Q&A-page/SellitemPage";

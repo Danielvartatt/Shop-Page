@@ -10,7 +10,7 @@ export default function LoginUser() {
         <button>Login</button>
       </Link>
       <p>
-        are you a seller? try Login in <Link to="/Login-Special/"> here</Link>
+        are you a Admin? try Login in <Link to="/Login-Special/"> here</Link>
       </p>
       <p>
         don't have an account? Register <Link to="/Register/">here</Link>

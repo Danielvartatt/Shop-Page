@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+/*import { Link } from "react-router-dom";
 export default function ReturnComp({
   data: { question, Answer, Link, LinkName },
 }) {
@@ -12,3 +12,4 @@ export default function ReturnComp({
     </>
   );
 }
+*/

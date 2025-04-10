@@ -13,6 +13,10 @@ export default function LoginSeller() {
         are you a user? try Login in <Link to="/Login/"> here</Link>
       </p>
       <p>
+        want to become an seller? read more about it{" "}
+        <Link to="/Q&A/">here</Link>
+      </p>
+      <p>
         don't have an account? Register <Link to="/Register/">here</Link>
       </p>
     </>

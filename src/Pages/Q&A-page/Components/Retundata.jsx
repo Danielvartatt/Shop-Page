@@ -3,11 +3,14 @@ import ReturnComp from "./Components/RetunComp";
 export function Retundata() {
   return (
     <>
-      <div>
+      <p>placeholder text</p>
+    </>
+  );
+}
+/*
+ <div>
         {QandA.map((items, id) => {
           <ReturnComp key={id} data={items} />;
         })}
       </div>
-    </>
-  );
-}
+*/

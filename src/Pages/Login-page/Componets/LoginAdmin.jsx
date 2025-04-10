@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { ErrorAdmin } from "../../Function/ErrorMas";
 export default function LoginAdmin() {
   return (
     <>
@@ -7,7 +6,7 @@ export default function LoginAdmin() {
       <p>Login text</p>
       <input type="text"></input>
       <input type="text"></input>
-      <button onSubmit={ErrorAdmin}>Login</button>
+      <button>Login</button>
       <p>
         are you a user? try Login in <Link to="/Login/"> here</Link>
       </p>
